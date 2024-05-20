@@ -31,7 +31,7 @@ main {
 
 .plugin img {
     max-width: 100%; /* 保证图片在容器内完整显示 */
-    height: auto;
+    height: 100px;
     border-radius: 8px;
     margin-bottom: 15px;
 }
@@ -155,3 +155,7 @@ body{
     left: 80%;
     transform: translate(-50%, -50%);
   }
+  .container {
+    display: flex;
+    justify-content: flex-end; /* 将内容推向右边 */
+}
